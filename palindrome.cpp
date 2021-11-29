@@ -14,7 +14,7 @@ bool isPalindrome(string inp){
 int main()
 {
     string input;
-    cout << "Enter a word to check if it is a palindrome: " << endl;
+    cout << "Enter a word to check if it is a palindrome: ";
     cin >> input;
     
     bool flag;
