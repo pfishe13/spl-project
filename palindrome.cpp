@@ -13,17 +13,17 @@ bool isPalindrome(string inp){
 
 int main()
 {
-    string input;
+    string userInput;
     cout << "Enter a word to check if it is a palindrome: ";
-    cin >> input;
+    cin >> userInput;
     
     bool flag;
-    flag = isPalindrome(input);
+    flag = isPalindrome(userInput);
     
     if (flag) {
-        cout << input << " is a palindrome" << endl;
+        cout << userInput << " is a palindrome" << endl;
     } else {
-        cout << input << " is not a palindrome" << endl;
+        cout << userInput << " is not a palindrome" << endl;
     }
     
     return 0;
