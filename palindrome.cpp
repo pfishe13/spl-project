@@ -17,8 +17,7 @@ int main()                                                          // required 
     cout << "Enter a word to check if it is a palindrome: ";        // output string to console
     cin >> userInput;                                               // get user input from console and store in userInput
     
-    bool flag;                                                      // data type 'bool' required
-    flag = isPalindrome(userInput);                                 // store result of function return value in flag (true if userInput is a palindrome, false otherwise)
+    bool flag = isPalindrome(userInput);                            // data type 'bool' required, store result of function return value in flag (true if userInput is a palindrome, false otherwise)
     
     if (flag) {                                                     // if flag is true
         cout << userInput << " is a palindrome" << endl;
