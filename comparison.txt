@@ -1,4 +1,6 @@
-When looking at both programs it is very easy to see that there are many differences between c++ and python. 
+Python is a functional, declarative and object oriented programming language. C++, on the other hand, is an imperative and object oriented programming language.
+
+When looking at both programs it is very easy to see that there are many differences between c++ and python.  
 
 The biggest visual difference that most see is that python does not require types to be explicitly stated when creating variables. This is because python is a dynamically type language. C++, in contrast, is a statically typed language, and requires programmers to explicitly state the data type of variables when they are declared.
 This difference is shown on line 7 in the python file and line 16 in the c++ file. Both programs declare a variable named "userInput" that will hold the string input from the user. C++ requires "string" to be present before the variable declaration, while python does not.
